@@ -1,15 +1,18 @@
 <template>
-  <p class="underline">hier ben ik </p>
+  <PokeNav/>
+  <PokeGrid/>
 </template>
 
 <script>
 import PokeGrid from './components/PokeGrid.vue'
+import PokeNav from './components/PokeNav.vue';
 
 export default {
   name: 'App',
   components: {
-    PokeGrid
-  }
+    PokeGrid,
+    PokeNav
+}
 }
 </script>
 
